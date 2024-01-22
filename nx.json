@@ -1,0 +1,15 @@
+{
+  "affected": {
+    "defaultBase": "main"
+  },
+  "targetDefaults": {
+    "@nx/vite:test": {
+      "cache": true,
+      "inputs": [
+        "default",
+        "^default"
+      ]
+    }
+  },
+  "plugins": ["@nx/vite/plugin"]
+}

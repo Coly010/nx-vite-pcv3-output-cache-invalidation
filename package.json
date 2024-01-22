@@ -9,7 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@nx/vite": "^17.3.0-canary.20240120-06717de",
+    "@nx/web": "17.3.0-canary.20240120-06717de",
+    "@vitest/ui": "^1.0.4",
+    "nx": "17.3.0-canary.20240120-06717de",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
-  }
+    "vite": "^5.0.8",
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {}
 }
